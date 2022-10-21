@@ -2,7 +2,7 @@ package org.example;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
+import java.util.Objects;
 
 /**
  * Unit test for simple App.
@@ -13,6 +13,7 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        Boolean a = true;
+        System.out.println(Objects.equals(null, true));
     }
 }
